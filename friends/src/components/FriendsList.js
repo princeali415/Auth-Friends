@@ -9,6 +9,7 @@ const initialState ={
 }
 
 export default function FriendsList() {
+
     const [friendList, setFriendList] = useState([])
     const [newFriend, setNewFriend] = useState(initialState)
     
